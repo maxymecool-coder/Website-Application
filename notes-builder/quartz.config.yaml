@@ -6,8 +6,7 @@ configuration:
   enablePopovers: true
   analytics: null
   locale: en-US
-  # Change to your real address once the site is online, e.g. yourname.com/notes
-  baseUrl: your-domain.com/notes
+  baseUrl: maxymecool-coder.github.io/Website-Application/notes
   ignorePatterns:
     - private
     - templates
@@ -210,8 +209,8 @@ plugins:
     enabled: true
     options:
       links:
-        What helping means: /
-        Writing: /writing.html
+        What helping means: https://maxymecool-coder.github.io/Website-Application/
+        Writing: https://maxymecool-coder.github.io/Website-Application/writing.html
     layout:
       position: footer
       priority: 50

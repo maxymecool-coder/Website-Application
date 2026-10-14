@@ -1,0 +1,37 @@
+---
+tags:
+  - type/sketchnote
+  - type/note
+  - theme/xyz
+template_type: Note
+template_version: "1.27"
+updated: 2025-10-09T23:41
+created: 2024-09-26T21:42
+---
+Status: #adult 
+Tags: [[game design]]
+# Mario Odyssey
+**Details**
+Mario is one of the most influential and greatest game series of all time, created by probably the greatest gaming studio of all time - Nintendo. Though in recent years, Nintendo has been on a downhill trend with the corporate decisions that they have been making and the fact that their gaming studio hasn't been dropping revolutionary games (bangers) like how they did in the 1980s throughout the 2010s, but they are still occasionally dropping complete masterpieces, that's undeniable.
+
+And with that introduction out of the way, I want to discuss about Mario Odyssey, just Mario Odyssey, not any other Mario games that it is usually compared with like Galaxy or Sunshine. This game means a lot to me, it was the first game I ever played from Nintendo, and basically was what got me to become a Nintendo fanboy. People usually discuss lots about the gameplay, the art direction, less about the story as the story is never the main focus of a Mario game. Though I want to give my two cents on the matter, I believe that it is much more efficient to talk about the other aspects of the game is lesser... discussed about. In particular, I want to talk about the music and story/moments of the game.
+
+The mechanics and gameplay of Odyssey is already talked to death about how revolutionary it was as a 3D game, with how much they focused on the open-world aspect of the platformer, similar to how Mario 64 was for me. The level design was immaculate and puzzles were fun. Main criticism was of course how imbalanced finding Moons were, some were the easiest thing ever, others took hours. For me, of course I remembered the Moons that were just god damn pecking into holes or ground pounding, but the thing is, I was never particularly focused on how I got the Moons, of course the feeling and dopamine you get from completing a hard ass puzzle to get a Moon FEELS better than if you just found it randomly but I never had that problem. Every Moon had SOME work to get there, either it was smart or skillful, I genuinely cannot remember a moment from the game that there wasn't some clue or hidden aspect to any Moon at all. That being said, for certain people, of course this criticism is justified (not in my books but that's fine). 
+
+For Galaxy, I didn't play it when Galaxy came out, and of course I'm not gonna understand what it meant to people and for Mario at the time, but from what I've seen and experienced, it was fire, the mechanics seemed nice, gravity and interactions with the environment, I love it. For Odyssey however, I felt like the interactions WERE the game, it was all about how you interacted with the entities around you and how that would affect and played differently from just Mario. Odyssey still had sections that I felt resembled Galaxy whilst building on that with even greater mechanics.
+
+The soundtrack, now I'm not gonna derail further to talk about Mario Galaxy soundtrack and how it compares to Odyssey because I have heard both... and fuck it I cannot pick one over the other. But that is a topic for another day, for Odyssey man, a lot of the times the music is very much just in the background of whatever level you're at, blending into the atmosphere and immersing you more into the game. But at times, when it makes itself known and makes it so that you HAVE to acknowledge it, oh does it do that effectively. I still, with all my heart, remember Pauline's performance to commemorate and celebrate Mario as the savior of the city. That, I mean, the festival and "Jump Up Super Star" ? It made you feel so fucking hyped, you WERE THE SAVIOR, YOU WERE THE SUPER STAR, AND YOU'RE HER SUPERSTAR, together with the gameplay during that section, oh my goddddd, it was the core memory I have of that game. It was not only groovy but memorable, it showed itself, and dedicated itself to the player, to Mario. I normally do not go out of my way to search music and listen to it on repeat or on my way to work or doing stuff or whatever (except Minecraft music), but this is the SINGULAR song I play whilst doing all kinds of stuff. There is just so much stuff to talk about the music of this section and how it corresponded to all kinds of emotions and thoughts of the player whilst enjoying it (of course ignoring the inaccuracies and illogicalness).
+
+Finishing with one of the two parts I wanted to discuss, moving onto the next is the story. The story and emotional connection that one may develop with Cappy, the other half of the game. I genuinely wondered how people did not discuss much about the relationship and bond they have with him along the way. Cappy is whatever he is, he is Mario's companion, who is working with him to save his sister, or girlfriend, or whatever. Alongside the journey, you and Cappy does so many stuff with each other, so much work, so much efforts, and as a player, I genuinely developed a bond with Cappy and with the game. And so when the game neared its end, when I was collecting every single Moons possible so that I can go ahead and 100% the game, I felt so sad, so so damn sad because of the fact that this adventure, this game that made me so happy was about to end. I deadass cried over the ending when Mario and Cappy captured their last Moon... It was just so emotional and I was just so attached with the game. No other games have made me ever felt like this, and I had my fair share of experience, with Zelda: Breath of The Wild, Minecraft, and many more that I will not try to name, but no game has made me cried like Odyssey has. Maybe throughout the game, people don't mention, don't care about the relationships and all with the other characters perhaps, but this meant something to me, so much.
+
+Now, to prevent this from becoming repetitive, moving on from this topic, yes I tricked you all, I have something new to talk about. Though having not played the new Donkey Kong game, I do know that it is allegedly made by the same studio that made Super Mario Odyssey. This does not change anything for me as I have completely changed my views on Nintendo due to the recent monopolies that the corporation has done. I love the studio, the games they make, but I hate the corporation. They have the talent of indie game studios like Team Cherry and the funding of AAA corporations, which is a perfect combination, allowing them to make so many revolutionary games. Though I hope they can disconnect themselves from the evil, greedy corporation, it is quite impossible because of how connected and how tied they are to said corporations. Even if they leave, they cannot just make Mario games due to how copyright and patent works as well as how Nintendo is not just going to let that happen. Personally, I do not think that it stops the creativity and love for games that these developers can create since the freedom that Nintendo probably gives them. I am not against them chasing the bag, people have families, hobbies, and lives to manage, though I do hope that if they do have the chance, they would choose game over the other (basically hoping that Nintendo becomes a shit corporation and puts too many restrictions to the studio and makes them leave).
+
+**Supporting Content**
+
+
+---
+## References
+
+
+## Questions
+

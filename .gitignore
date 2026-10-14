@@ -1,7 +1,7 @@
-# Quartz's downloaded packages and working copies (recreated by `npm ci` and tools/update_notes.py)
+# Quartz's downloaded packages and build scratch (recreated by `npm ci` and tools/update_notes.py).
+# notes-builder/content/ stays tracked: Quartz skips anything .gitignore lists.
 notes-builder/node_modules/
 notes-builder/.quartz-cache/
-notes-builder/content/
 notes-builder/public/
 
 # Original full-size photos; the site uses the resized copies in images/
