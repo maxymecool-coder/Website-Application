@@ -14,16 +14,12 @@
 
 <header class="top">
   <div class="wrap top-in">
-    <a class="mark" href="index.html">What helping means</a>
-    <nav aria-label="Sections">
-      <a href="index.html#workshops">Workshops</a>
-      <a href="index.html#turn">The turn</a>
-      <a href="index.html#cp">Cerebral palsy</a>
-      <a href="index.html#piano">Piano</a>
-      <a href="index.html#awards">Awards and service</a>
-      <span class="nav-sep" aria-hidden="true"></span>
-      <a href="writing.html" aria-current="page">Writing</a>
-      <a href="notes/">Notes</a>
+    <a class="mark" href="index.html"><span class="mark-dot" aria-hidden="true"></span><span>What helping means</span></a>
+    <nav class="tabs" aria-label="Site">
+      <a class="tab" href="index.html">Story</a>
+      <a class="tab" href="research.html">Research</a>
+      <a class="tab" href="writing.html" aria-current="page">Writing<span class="tab-src">Substack</span></a>
+      <a class="tab" href="notes/">Notes<span class="tab-src">Vault</span></a>
     </nav>
   </div>
 </header>
@@ -34,9 +30,13 @@
     <h1>Writing</h1>
     <p class="lede">Just a teenager who loves psychology and philosophy. I really just do this to formalize my thinking.</p>
     <p class="page-links">
-      <a href="https://maxymien.substack.com">All posts on Substack ↗</a>
-      <a href="https://maxymien.substack.com/subscribe">Subscribe ↗</a>
+      <a class="pill pill--solid" href="https://maxymien.substack.com/subscribe">Subscribe <span aria-hidden="true">↗</span></a>
+      <a class="pill" href="https://maxymien.substack.com">All posts on Substack <span aria-hidden="true">↗</span></a>
     </p>
+    <div class="pointer">
+      <span class="mascot" data-character="miku" data-spot="writing-latest" aria-hidden="true"><img src="images/mascots/writing-latest.webp" alt=""></span>
+      <p class="bubble">The newest essay is right below <span class="arrow" aria-hidden="true">↓</span> If you like it, subscribing is how you get the next one.</p>
+    </div>
   </header>
 
   <ul class="posts">
@@ -115,11 +115,19 @@
       </li>
       <!-- posts:end -->
   </ul>
+
+  <div class="pointer pointer--minor">
+    <span class="mascot mascot--card" data-character="cinnamoroll" data-spot="writing-notes" aria-hidden="true"><img src="images/mascots/writing-notes.webp" alt="" loading="lazy"></span>
+    <p class="bubble">Essays start as notes. The rough ones live in my zettelkasten. <a href="notes/">Explore the vault <span aria-hidden="true">→</span></a></p>
+  </div>
 </main>
 
 <footer class="wrap foot">
   <span>What helping means</span>
-  <a href="#">Back to top</a>
+  <nav aria-label="Footer">
+    <a href="credits.html">Credits</a>
+    <a class="to-top" href="#"><span class="mascot" data-character="miku" data-spot="footer" aria-hidden="true"><img src="images/mascots/footer.webp" alt="" loading="lazy"></span>Back to top</a>
+  </nav>
 </footer>
 
 </body>
