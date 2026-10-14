@@ -60,6 +60,10 @@ To fill one, save the picture as `images/mascots/<data-spot>.webp` (or `.png`; t
 
 The tabs at the top carry small round crops of the same art (`images/mascots/tab-*.webp`). Clicking any mascot makes it hop and throw out notes and sparkles (Miku) or hearts and clouds (Cinnamoroll); that's in `site.js`.
 
+### Cloud edges
+
+Sections on the Story page alternate between the paper color and a soft blue band, and every section's top edge is a row of cloud puffs (so are the header's bottom edge and the footer). To make a section blue, add `band` to its class, e.g. `<section class="chapter band has-sky" …>`. Keep neighbouring sections different colors so the puffs show.
+
 ### Clouds, stars and other decorations
 
 Each decorated section has a `<div class="sky">` holding small items like:
