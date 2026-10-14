@@ -1,0 +1,13 @@
+# Quartz's downloaded packages and working copies (recreated by `npm ci` and tools/update_notes.py)
+notes-builder/node_modules/
+notes-builder/.quartz-cache/
+notes-builder/content/
+notes-builder/public/
+
+# Original full-size photos; the site uses the resized copies in images/
+/*.JPG
+/*.jpg
+
+.claude/
+.DS_Store
+__pycache__/
