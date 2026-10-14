@@ -31,7 +31,7 @@ GitHub Pages republishes within a minute or two.
 
 ## Editing the Research page
 
-Each section of `research.html` sits between markers like `<!-- research:abstract -->` and `<!-- /research:abstract -->`. Paste your edited text between them. To add the full paper, put the PDF in a `papers/` folder and swap the dashed box under "Full paper" for the link shown in the comment there.
+Each section of `research.html` sits between markers like `<!-- research:abstract -->` and `<!-- /research:abstract -->`. Paste your edited text between them. The full paper is the PsyArXiv preprint; when there's a new version or a journal version, change its link under "Full paper" and in the "Read the preprint" pill at the top of the page.
 
 ## The look
 
