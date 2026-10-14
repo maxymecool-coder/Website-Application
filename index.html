@@ -35,16 +35,12 @@
 
 <header class="top">
   <div class="wrap top-in">
-    <a class="mark" href="#top">What helping means</a>
-    <nav aria-label="Sections">
-      <a href="#workshops">Workshops</a>
-      <a href="#turn">The turn</a>
-      <a href="#cp">Cerebral palsy</a>
-      <a href="#piano">Piano</a>
-      <a href="#awards">Awards and service</a>
-      <span class="nav-sep" aria-hidden="true"></span>
-      <a href="writing.html">Writing</a>
-      <a href="notes/">Notes</a>
+    <a class="mark" href="#top"><span class="mark-dot" aria-hidden="true"></span><span>What helping means</span></a>
+    <nav class="tabs" aria-label="Site">
+      <a class="tab" href="index.html" aria-current="page">Story</a>
+      <a class="tab" href="research.html">Research</a>
+      <a class="tab" href="writing.html">Writing<span class="tab-src">Substack</span></a>
+      <a class="tab" href="notes/">Notes<span class="tab-src">Vault</span></a>
     </nav>
   </div>
 </header>
@@ -60,11 +56,16 @@
   </section>
 
   <div class="wrap contact">
+    <div class="pointer">
+      <span class="mascot is-empty" data-character="miku" data-spot="story-chapters" aria-hidden="true"><span class="sketch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4.5-1 10-10a2.1 2.1 0 0 0-3-3l-10 10L4 20z"/><path d="M14 7l3 3"/></svg><b>Miku</b>pointing down<em>draw me</em></span></span>
+      <p class="bubble">Five chapters. Start at the top or jump to any of them <span class="arrow" aria-hidden="true">↓</span></p>
+    </div>
     <ul class="contact-row" aria-label="Jump to a chapter">
-      <li><a href="#workshops"><span class="frame"><img src="images/workshop-1-800.jpg" alt="" width="800" height="600" style="object-position:70% 50%"></span><span class="label">Workshops</span></a></li>
-      <li><a href="#turn"><span class="frame"><img src="images/workshop-paintings-800.jpg" alt="" width="495" height="660"></span><span class="label">The turn</span></a></li>
-      <li><a href="#cp"><span class="frame"><img src="images/cp-3-800.jpg" alt="" width="600" height="800"></span><span class="label">Cerebral palsy</span></a></li>
-      <li><a href="#piano"><span class="frame"><svg viewBox="52 0 67.5 90" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#octave" width="140" height="90"/></svg></span><span class="label">Piano</span></a></li>
+      <li><a href="#workshops"><span class="frame"><img src="images/workshop-1-800.jpg" alt="" width="800" height="600" style="object-position:70% 50%"></span><span class="label"><span class="num">01</span>Workshops</span></a></li>
+      <li><a href="#turn"><span class="frame"><img src="images/workshop-paintings-800.jpg" alt="" width="495" height="660"></span><span class="label"><span class="num">02</span>The turn</span></a></li>
+      <li><a href="#cp"><span class="frame"><img src="images/cp-3-800.jpg" alt="" width="600" height="800"></span><span class="label"><span class="num">03</span>Cerebral palsy</span></a></li>
+      <li><a href="#piano"><span class="frame"><svg viewBox="52 0 67.5 90" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#octave" width="140" height="90"/></svg></span><span class="label"><span class="num">04</span>Piano</span></a></li>
+      <li><a href="#awards"><span class="frame"><img src="images/mountain-games-2-800.jpg" alt="" width="800" height="600" style="object-position:58% 50%"></span><span class="label"><span class="num">05</span>Awards</span></a></li>
     </ul>
   </div>
 
@@ -96,7 +97,7 @@
 
   <!-- The turn -->
   <section class="chapter" id="turn" aria-labelledby="h-turn">
-    <div class="wrap chapter-grid">
+    <div class="wrap chapter-grid chapter-grid--solo">
       <header class="chapter-head">
         <p class="eyebrow">Research</p>
         <h2 id="h-turn">The turn</h2>
@@ -113,54 +114,14 @@
         <p>So I started a study based on that hypothesis. I created a survey targeted at Vietnamese university students that measured those kinds of stigma side by side with who they’d turn to for help, if anyone. I wasn’t trying to show that stigma is worse here or harder to change; I was trying to find out what it runs on.</p>
         <p>582 students at four universities in northern Vietnam answered it, and 308 of those answers held up once I removed the careless ones. The pattern I’d been watching held: students who expected their family to pay a price were less willing to turn to their family, and more willing to turn to no one at all. But my guess was only half right. What they think most people believe mattered at least as much for turning to family, so the cost to the family never came out ahead of it. What students personally believe about mental illness barely mattered for turning to family, the reverse of what studies in the US and Ireland found. The effects are small. Whose judgment counts here may be both: the public, and the people around the family.</p>
 
-        <figure class="study" aria-labelledby="h-study">
-          <div class="study-top">
-            <h3 id="h-study">Whose Judgment Counts?</h3>
-            <span class="status">Finished, October 2026</span>
-          </div>
-          <p class="study-who">An anonymous survey at four universities in northern Vietnam. After reading about someone with depression, students rated how likely they’d be to seek help from family, friends, professionals, or no one.</p>
-          <dl class="study-facts">
-            <div><dt>Answered</dt><dd>582</dd></div>
-            <div><dt>Passed checks</dt><dd>308</dd></div>
-            <div><dt>Universities</dt><dd>4</dd></div>
-          </dl>
-          <div class="results-wrap">
-            <table class="results">
-              <caption>How each kind of stigma tracked where students would turn</caption>
-              <thead>
-                <tr><th scope="col">Whose judgment</th><th scope="col" class="n">Turn to family</th><th scope="col" class="n">Turn to no one</th></tr>
-              </thead>
-              <tbody>
-                <tr><th scope="row">Their own attitudes</th><td class="n">−.02</td><td class="n">.05</td></tr>
-                <tr><th scope="row">What “most people” think</th><td class="n on">−.22</td><td class="n">.09</td></tr>
-                <tr><th scope="row">The cost to their family</th><td class="n on">−.18</td><td class="n on">.22</td></tr>
-                <tr><th scope="row">Rejection by friends</th><td class="n on">−.18</td><td class="n on">.24</td></tr>
-              </tbody>
-            </table>
-          </div>
-          <p class="study-note">Spearman correlations. Bold numbers are clear associations (<i>q</i> &lt; .05): the more of that stigma students felt, the less they’d turn to family, or the more they’d turn to no one.</p>
-          <ul class="study-more">
-            <li>Students who expected a cost to their family also expected rejection by friends. The two couldn’t be told apart.</li>
-            <li>About half expected a psychiatrist or psychologist to tell their family. Those students were more willing to see one, not less.</li>
-          </ul>
-        </figure>
+        <div class="pointer pointer--flip pointer--minor">
+          <span class="mascot is-empty" data-character="cinnamoroll" data-spot="story-research" aria-hidden="true"><span class="sketch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4.5-1 10-10a2.1 2.1 0 0 0-3-3l-10 10L4 20z"/><path d="M14 7l3 3"/></svg><b>Cinnamoroll</b>peeking, pointing left<em>draw me</em></span></span>
+          <p class="bubble bubble--cream">The study itself, with its method, numbers and limits, is on the <a href="research.html">Research page <span aria-hidden="true">→</span></a></p>
+        </div>
 
         <p>I’d written those cost questions as two separate sets, one about family and one about friends, because I thought they were different fears. My respondents answered them as if they were one. The data can’t tell me why, but I think the people who taught them to be afraid are the same people they’re afraid for.</p>
         <p>If I’m right, though, the person with the key to the house is two things at once. They’re where the negative beliefs come from, and they’re who their children are trying to protect from the label. Merely changing what people believe won’t be enough. What has to change is how much the word costs a family.</p>
       </div>
-
-      <aside class="lexicon" aria-label="The two words">
-        <div class="lex">
-          <p class="eyebrow">At home</p>
-          <p class="stamp" lang="vi">điên</p>
-          <p class="lex-gloss">Crazy. The word for someone with schizophrenia or psychosis, and for anyone called mentally ill at all.</p>
-        </div>
-        <div class="lex">
-          <p class="eyebrow">My generation</p>
-          <p class="soft" lang="vi">trầm cảm</p>
-          <p class="lex-gloss">Depression. All over the internet and our daily lives, but not the word that counts at home.</p>
-        </div>
-      </aside>
     </div>
     <div class="wrap">
       <p class="coda"><span>I started out wanting to help people.</span> Most of the people this is about were never going to walk into a room.</p>
@@ -226,7 +187,13 @@
   <!-- Awards and service -->
   <section class="awards" id="awards" aria-labelledby="h-awards">
     <div class="wrap awards-in">
-      <h2 id="h-awards">Awards and service</h2>
+      <div class="awards-head">
+        <h2 id="h-awards">Awards and service</h2>
+        <div class="pointer pointer--flip">
+          <span class="mascot is-empty" data-character="cinnamoroll" data-spot="story-awards" aria-hidden="true"><span class="sketch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4.5-1 10-10a2.1 2.1 0 0 0-3-3l-10 10L4 20z"/><path d="M14 7l3 3"/></svg><b>Cinnamoroll</b>cheering, pointing down-left<em>draw me</em></span></span>
+          <p class="bubble">Tap any cover to see its photos <span class="arrow" aria-hidden="true">↙</span></p>
+        </div>
+      </div>
       <ul class="cards">
         <li class="card">
           <a class="cover" href="#piano" aria-label="Asia-Pacific Arts Festival: read the piano chapter"><svg viewBox="52 0 67.5 90" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#octave" width="140" height="90"/></svg><span class="badge"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 10.5V1.5"/><path d="M2.5 5L6 1.5L9.5 5"/></svg>Chapter</span></a>
@@ -283,11 +250,24 @@
     </div>
   </section>
 
+  <!-- Onward: the zettelkasten -->
+  <section class="onward" aria-label="More">
+    <div class="wrap">
+      <div class="pointer pointer--minor">
+        <span class="mascot is-empty" data-character="cinnamoroll" data-spot="story-notes" aria-hidden="true"><span class="sketch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4.5-1 10-10a2.1 2.1 0 0 0-3-3l-10 10L4 20z"/><path d="M14 7l3 3"/></svg><b>Cinnamoroll</b>floating, pointing right<em>draw me</em></span></span>
+        <p class="bubble">Shorter thinking lives in my zettelkasten: about 1,500 linked notes on psychology, philosophy and reading. <a href="notes/">Explore the vault <span aria-hidden="true">→</span></a></p>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <footer class="wrap foot">
   <span>What helping means</span>
-  <a href="#top">Back to top</a>
+  <nav aria-label="Footer">
+    <a href="credits.html">Credits</a>
+    <a class="to-top" href="#top"><span class="mascot is-empty" data-character="miku" data-spot="footer" aria-hidden="true"><span class="sketch"><b>Miku</b></span></span>Back to top</a>
+  </nav>
 </footer>
 
 <dialog id="lightbox" aria-label="Photo viewer">

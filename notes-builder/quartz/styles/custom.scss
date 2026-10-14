@@ -1,3 +1,44 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// Match the main site: rounded, sky-blue, pill-shaped controls
+:root {
+  --radius: 14px;
+}
+
+body {
+  background-image: radial-gradient(70rem 32rem at 88% -8rem, color-mix(in srgb, var(--secondary) 14%, transparent), transparent 70%);
+  background-repeat: no-repeat;
+}
+
+a.internal {
+  border-radius: 6px;
+  padding: 0 0.15rem;
+}
+
+.search > .search-button,
+.darkmode,
+.readermode {
+  border-radius: 999px;
+}
+
+.search > .search-button {
+  background-color: var(--highlight);
+  border-color: var(--lightgray);
+}
+
+.graph > .graph-outer,
+.search > .search-container > .search-space {
+  border-radius: var(--radius);
+}
+
+.page-title a {
+  color: var(--dark);
+}
+
+blockquote {
+  border-left-color: var(--tertiary);
+}
+
+hr {
+  background-color: var(--lightgray);
+}

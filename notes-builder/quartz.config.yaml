@@ -21,25 +21,25 @@ configuration:
     colors:
       # Same palette as the main site (styles.css)
       lightMode:
-        light: "#EDF0F2"
-        lightgray: "#CBD2D9"
-        gray: "#8E99A4"
-        darkgray: "#2E3B48"
-        dark: "#15202B"
-        secondary: "#A8241C"
-        tertiary: "#B06A3B"
-        highlight: rgba(179, 38, 30, 0.07)
-        textHighlight: "#F2C94C66"
+        light: "#EFF4F8"
+        lightgray: "#D3E0EC"
+        gray: "#7E9AC3"
+        darkgray: "#2E3558"
+        dark: "#1B1F3B"
+        secondary: "#535EA6"
+        tertiary: "#386A83"
+        highlight: rgba(147, 180, 221, 0.18)
+        textHighlight: "#FCE7C8"
       darkMode:
-        light: "#0F1418"
-        lightgray: "#29323B"
-        gray: "#5F6B76"
-        darkgray: "#C9D0D6"
-        dark: "#E5E9ED"
-        secondary: "#F07565"
-        tertiary: "#D08E5E"
-        highlight: rgba(240, 117, 101, 0.1)
-        textHighlight: "#B3871A66"
+        light: "#14172B"
+        lightgray: "#30365A"
+        gray: "#6F7FA6"
+        darkgray: "#DCDFE9"
+        dark: "#EEF3FC"
+        secondary: "#93B4DD"
+        tertiary: "#8BB7C6"
+        highlight: rgba(98, 110, 182, 0.18)
+        textHighlight: "#5A4A6688"
 plugins:
   - source: "@quartz-community/created-modified-date"
     enabled: true
@@ -209,8 +209,10 @@ plugins:
     enabled: true
     options:
       links:
-        What helping means: https://maxymecool-coder.github.io/Website-Application/
+        Story: https://maxymecool-coder.github.io/Website-Application/
+        Research: https://maxymecool-coder.github.io/Website-Application/research.html
         Writing: https://maxymecool-coder.github.io/Website-Application/writing.html
+        Credits: https://maxymecool-coder.github.io/Website-Application/credits.html
     layout:
       position: footer
       priority: 50

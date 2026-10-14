@@ -2,6 +2,7 @@
 # notes-builder/content/ stays tracked: Quartz skips anything .gitignore lists.
 notes-builder/node_modules/
 notes-builder/.quartz-cache/
+notes-builder/quartz/.quartz-cache/
 notes-builder/public/
 
 # Original full-size photos; the site uses the resized copies in images/
