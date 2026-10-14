@@ -58,6 +58,20 @@ To fill one, save the picture as `images/mascots/<data-spot>.webp` (or `.png`; t
 | `writing-notes` | Writing, bottom | Cinnamoroll saying "Hello" (nacchan) | "Explore the vault" |
 | `footer` | every page | Miku in a leek costume (lulalang) | "Back to top" |
 
+The tabs at the top carry small round crops of the same art (`images/mascots/tab-*.webp`). Clicking any mascot makes it hop and throw out notes and sparkles (Miku) or hearts and clouds (Cinnamoroll); that's in `site.js`.
+
+### Clouds, stars and other decorations
+
+Each decorated section has a `<div class="sky">` holding small items like:
+
+```html
+<i class="d d-cloud tint" style="--x:60%;--y:10%;--w:6rem"></i>
+```
+
+- Kinds: `d-cloud` (add `tint` for a blue one), `d-spark` (add `blue`), `d-star`, `d-note`, `d-heart`, `d-ring`
+- `--x` / `--y`: where it sits in the section; `--w`: size; `--t`: animation offset (e.g. `-2s`) so neighbours don't move in sync; `--r`: tilt
+- Add `wide-only` to hide one on phones, where it might sit behind text
+
 Whenever you add someone else's art, add a row for it in `credits.html` (the comment there has the pattern) with the artist and a link to where you found it.
 
 ## Previewing on this computer
