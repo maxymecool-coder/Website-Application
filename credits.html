@@ -3,41 +3,44 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<script>try{var t=localStorage.getItem("theme");if(t==="dark"||t==="light")document.documentElement.dataset.theme=t}catch(e){}</script>
 <title>Credits · What Helping Means</title>
 <meta name="description" content="Who drew the Miku and Cinnamoroll art on this site, and where it came from.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Literata:ital,opsz,wght@0,7..72,400..600;1,7..72,400..500&display=swap">
 <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="images/icon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="images/icon-512.png" sizes="512x512" type="image/png">
+<link rel="apple-touch-icon" href="images/icon-180.png">
 </head>
 <body>
 
+<div class="sheet" id="top">
+
+<span class="perch perch--top" data-character="cinnamoroll" aria-hidden="true"><img src="images/mascots/cinna-headphones.webp" alt="" width="520" height="357"></span>
+
 <header class="top">
+  <div class="band band--down" aria-hidden="true"></div>
   <div class="wrap top-in">
-    <a class="mark" href="index.html"><span class="mark-dot" aria-hidden="true"></span><span>What helping means</span></a>
-    <nav class="tabs" aria-label="Site">
-      <a class="tab" href="index.html"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-story.webp" alt=""></span>Story</a>
-      <a class="tab" href="research.html"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-research.webp" alt=""></span>Research</a>
-      <a class="tab" href="writing.html"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-writing.webp" alt=""></span>Writing<span class="tab-src">Substack</span></a>
-      <a class="tab" href="notes/"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-notes.webp" alt=""></span>Notes<span class="tab-src">Vault</span></a>
-    </nav>
+    <a class="mark" href="index.html"><img src="images/icon-180.png" alt="" width="180" height="180"><span>What helping means</span></a>
+    <div class="nav">
+      <nav class="tabs" aria-label="Site">
+        <a class="tab" href="index.html"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-story.webp" alt=""></span>Story</a>
+        <a class="tab" href="research.html"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-research.webp" alt=""></span>Research</a>
+        <a class="tab" href="writing.html"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-writing.webp" alt=""></span>Writing<span class="tab-src">Substack</span></a>
+        <a class="tab" href="notes/"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-notes.webp" alt=""></span>Notes<span class="tab-src">Vault</span></a>
+      </nav>
+      <button class="theme" type="button" aria-pressed="false" aria-label="Dark mode"><span class="theme-knob" aria-hidden="true"><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="#C7881A" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.3" fill="#FFF4BF"/><path d="M12 2.6v2.1M12 19.3v2.1M2.6 12h2.1M19.3 12h2.1M5.4 5.4l1.5 1.5M17.1 17.1l1.5 1.5M5.4 18.6l1.5-1.5M17.1 6.9l1.5-1.5"/></svg><svg class="moon" viewBox="0 0 24 24"><path d="M19.6 14.6A7.9 7.9 0 0 1 9.4 4.4a7.9 7.9 0 1 0 10.2 10.2z" fill="#D9D3FB" stroke="#5B55A8" stroke-width="1.6" stroke-linejoin="round"/></svg></span></button>
+    </div>
   </div>
 </header>
 
-<main class="wrap page has-sky" id="top">
-  <div class="sky sky--top" aria-hidden="true">
-    <i class="d d-cloud" style="--x:62%;--y:8%;--w:7rem"></i>
-    <i class="d d-cloud tint wide-only" style="--x:84%;--y:22%;--w:4.5rem;--t:-7s"></i>
-    <i class="d d-star" style="--x:77%;--y:4%;--w:1.6rem"></i>
-    <i class="d d-spark" style="--x:93%;--y:10%;--t:-1.4s"></i>
-    <i class="d d-spark blue wide-only" style="--x:58%;--y:36%;--w:1rem;--t:-2s"></i>
-    <i class="d d-heart wide-only" style="--x:70%;--y:30%;--w:1.3rem;--r:-10deg"></i>
-    <i class="d d-heart wide-only" style="--x:90%;--y:42%;--w:1rem;--r:12deg;--t:-2s"></i>
-  </div>
+<main class="wrap page">
   <header class="page-head">
     <p class="eyebrow">Credits</p>
     <h1>Who drew the friends</h1>
-    <p class="lede">Miku and Cinnamoroll show up around the site to point at things. Every picture of them is listed here with the person who made it.</p>
+    <p class="lede">Miku and Cinnamoroll show up around the site to point at things. Every picture of them is listed here with the person who made it, and so are the skies behind the page.</p>
     <p class="bubble bubble--cream">If one of these is your art and you’d like it credited differently or taken down, email me at <a href="mailto:maxymecool@gmail.com">maxymecool@gmail.com</a> and I’ll fix it right away.</p>
   </header>
 
@@ -48,7 +51,7 @@
       <!--
         One <li> per image. Copy this pattern when you add art:
         <li class="credit">
-          <span class="mascot" data-character="miku" aria-hidden="true"><img src="images/mascots/story-chapters.png" alt=""></span>
+          <span class="mascot" data-character="miku" aria-hidden="true"><img src="images/mascots/story-chapters.webp" alt=""></span>
           <span class="credit-who"><b>Artist name</b><span>Used on: Story, chapter row · <a href="SOURCE-URL">Source</a> · Used with credit; will remove on request</span></span>
         </li>
       -->
@@ -82,8 +85,43 @@
           <span class="credit-who"><b>lulalang</b><span>Footer · back to top · <a href="https://x.com/lulalang_/status/2031132980044091615">Original on X</a> · Used with credit; will remove on request</span></span>
         </li>
         <li class="credit">
-          <span class="mascot is-empty" data-character="miku" aria-hidden="true"><span class="sketch"><b>Miku</b></span></span>
-          <span class="credit-who"><b>Research · abstract</b><span>Miku, holding a clipboard, pointing down. Not drawn yet.</span></span>
+          <span class="mascot mascot--wide" data-character="cinnamoroll" aria-hidden="true"><img src="images/mascots/cinna-headphones.webp" alt="" loading="lazy"></span>
+          <span class="credit-who"><b>nacchan (xiaoxiatuzi)</b><span>Every page · Cinnamoroll in headphones on top of the page, and the site icon · <a href="https://www.pixiv.net/artworks/133141014">Original on pixiv</a> · Used with credit; will remove on request</span></span>
+        </li>
+        <li class="credit">
+          <span class="mascot mascot--wide" data-character="cinnamoroll" aria-hidden="true"><img src="images/mascots/cinna-surprised.webp" alt="" loading="lazy"></span>
+          <span class="credit-who"><b>nacchan (xiaoxiatuzi)</b><span>Every page · Cinnamoroll on the bottom cloud · <a href="https://www.pixiv.net/artworks/146520027">Original on pixiv</a> · Used with credit; will remove on request</span></span>
+        </li>
+        <li class="credit">
+          <span class="mascot mascot--wide" data-character="miku" aria-hidden="true"><img src="images/mascots/miku-ledge.webp" alt="" loading="lazy"></span>
+          <span class="credit-who"><b>tina_muchimu</b><span>Every page · Miku (and a tiny Miku) peeking over the bottom cloud · <a href="https://www.pixiv.net/artworks/128921343">Original on pixiv</a>, page 1 · Used with credit; will remove on request</span></span>
+        </li>
+        <li class="credit">
+          <span class="mascot" data-character="miku" aria-hidden="true"><img src="images/mascots/miku-peek.webp" alt="" loading="lazy"></span>
+          <span class="credit-who"><b>tina_muchimu</b><span>Story · Miku peeking in beside “The turn” · <a href="https://www.pixiv.net/artworks/130906810">Original on pixiv</a>, page 13 · Used with credit; will remove on request</span></span>
+        </li>
+        <li class="credit">
+          <span class="mascot" data-character="miku" aria-hidden="true"><img src="images/mascots/miku-leek.webp" alt="" loading="lazy"></span>
+          <span class="credit-who"><b>tina_muchimu</b><span>Story · Miku dangling a leek over Awards and service · <a href="https://www.pixiv.net/artworks/128921343">Original on pixiv</a>, page 6 · Used with credit; will remove on request</span></span>
+        </li>
+        <li class="credit">
+          <span class="mascot mascot--wide" data-character="miku" aria-hidden="true"><img src="images/mascots/miku-lean.webp" alt="" loading="lazy"></span>
+          <span class="credit-who"><b>tina_muchimu</b><span>Research · Miku leaning on the abstract · <a href="https://www.pixiv.net/artworks/130906810">Original on pixiv</a>, page 1 · Used with credit; will remove on request</span></span>
+        </li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="c-sky">
+      <h2 id="c-sky">Skies and clouds</h2>
+      <!-- Both are free materials. Keep to each artist's terms (written in the pixiv captions) if you change them. -->
+      <ul class="credit-list">
+        <li class="credit">
+          <span class="mascot mascot--wide mascot--sky" aria-hidden="true"><img src="images/sky/sky-day.webp" alt="" loading="lazy"></span>
+          <span class="credit-who"><b>Sera (せら)</b><span>The day sky behind every page, and the clouds in the top and bottom bands · <a href="https://www.pixiv.net/artworks/116435344">Original on pixiv</a>, page 2 · Free material: editing and use allowed, no redistribution as a material</span></span>
+        </li>
+        <li class="credit">
+          <span class="mascot mascot--wide mascot--sky" aria-hidden="true"><img src="images/sky/sky-night.webp" alt="" loading="lazy"></span>
+          <span class="credit-who"><b>Minatsuki Ren (みなつき蓮)</b><span>The night sky in dark mode · <a href="https://www.pixiv.net/artworks/95758188">Original on pixiv</a>, page 8 · Free material</span></span>
         </li>
       </ul>
     </section>
@@ -99,20 +137,19 @@
 </main>
 
 <footer class="foot-band">
-  <div class="wrap foot has-sky">
-    <div class="sky" aria-hidden="true">
-      <i class="d d-cloud" style="--x:36%;--y:18%;--w:3.6rem"></i>
-      <i class="d d-spark" style="--x:47%;--y:46%;--w:.9rem;--t:-1s"></i>
-      <i class="d d-cloud wide-only" style="--x:55%;--y:28%;--w:2.8rem;--t:-5s"></i>
-      <i class="d d-heart wide-only" style="--x:63%;--y:40%;--w:.8rem;--r:10deg"></i>
-    </div>
-    <span>What helping means</span>
+  <div class="band band--up" aria-hidden="true"></div>
+  <span class="perch perch--ledge" data-character="miku" aria-hidden="true"><img class="back" src="images/mascots/miku-ledge.webp" alt="" width="520" height="536" loading="lazy"><img class="front" src="images/mascots/miku-ledge.webp" alt="" width="520" height="536" loading="lazy"></span>
+  <span class="perch perch--cheer" data-character="cinnamoroll" aria-hidden="true"><img src="images/mascots/cinna-surprised.webp" alt="" width="520" height="366" loading="lazy"></span>
+  <div class="wrap foot">
+    <span class="foot-name">What helping means</span>
     <nav aria-label="Footer">
       <a href="credits.html" aria-current="page">Credits</a>
       <a class="to-top" href="#top"><span class="mascot" data-character="miku" data-spot="footer" aria-hidden="true"><img src="images/mascots/footer.webp" alt="" loading="lazy"></span>Back to top</a>
     </nav>
   </div>
 </footer>
+
+</div>
 
 <script src="site.js" defer></script>
 </body>

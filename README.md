@@ -33,19 +33,37 @@ GitHub Pages republishes within a minute or two.
 
 Each section of `research.html` sits between markers like `<!-- research:abstract -->` and `<!-- /research:abstract -->`. Paste your edited text between them. To add the full paper, put the PDF in a `papers/` folder and swap the dashed box under "Full paper" for the link shown in the comment there.
 
+## The look
+
+Every page is one framed sheet floating on a painted sky. A cloud band runs across the top (name, tabs, light/dark switch) and the bottom (footer), and Miku and Cinnamoroll sit on the frame's edges. Inside, chapters are divided by a dotted line.
+
+- **Skies:** `images/sky/sky-day.webp` (Sera) and `images/sky/sky-night.webp` (Minatsuki Ren) sit behind the sheet and cross-fade when the theme changes. To swap one, replace the file, or change its `url()` in `styles.css` (search for `body::before`).
+- **Cloud bands:** a soft base colour (`--band`) with `images/sky/clouds-bank.webp` (clouds lifted out of Sera's sky) laid over it, cut to a puffy edge. At night the same clouds are dimmed by `--cloud-filter`.
+- **Light and dark:** the switch in the top band saves the choice as `theme` in the browser, the same key the Notes pages use, so it carries over to the vault. With nothing saved, the site follows the device setting. Both palettes are the variables at the top of `styles.css`.
+- **Tab icon:** `images/icon-32.png`, `icon-180.png` (phones) and `icon-512.png`, cut from nacchan's Cinnamoroll in headphones. Notes has its own copy in `notes-builder/quartz/static/icon.png` (200px).
+
 ## Mascots (Miku and Cinnamoroll)
 
-Seven spots use fan art (artists listed on `credits.html`). An empty spot shows a dashed "draw me" frame:
+All the art is fan art or free material, credited on `credits.html`. Whenever you add someone else's art, add a row for it there (the comment has the pattern) with the artist and a link to where you found it.
 
-```html
-<span class="mascot is-empty" data-character="miku" data-spot="story-chapters" aria-hidden="true">…</span>
-```
+### On the frame
 
-To fill one, save the picture as `images/mascots/<data-spot>.webp` (or `.png`; transparent background, about 480px), then replace the whole `<span>…</span>` with:
+These are cut-outs with transparent backgrounds, positioned in `styles.css` so each sits on an edge:
 
-```html
-<span class="mascot" data-character="miku" data-spot="story-chapters" aria-hidden="true"><img src="images/mascots/story-chapters.webp" alt=""></span>
-```
+| Class | Where | Art |
+|---|---|---|
+| `perch--top` | every page, standing on the top edge | Cinnamoroll in headphones (nacchan) |
+| `perch--ledge` | every page, peeking over the bottom cloud | Miku and a tiny Miku (tina_muchimu) |
+| `perch--cheer` | every page, on the bottom cloud | Cinnamoroll with a "!" (nacchan) |
+| `peek` | Story, beside "The turn" (wide screens only) | Miku peeking round the left edge (tina_muchimu) |
+| `perch--leek` | Story, over the Awards board | Miku dangling a leek (tina_muchimu) |
+| `perch--lean` | Research, on the abstract | Miku leaning on the edge (tina_muchimu) |
+
+Several of these line up a cut edge in the picture with an edge on the page (the `translateY` percentages in their rules). If you swap one for different art, adjust those numbers.
+
+### Pointing at things
+
+The rest stand beside what's worth clicking:
 
 | `data-spot` | Page | Now | Points at |
 |---|---|---|---|
@@ -53,30 +71,17 @@ To fill one, save the picture as `images/mascots/<data-spot>.webp` (or `.png`; t
 | `story-research` | Story, end of "The turn" | Miku peeking out of a mug (tina_muchimu) | the link to Research |
 | `story-awards` | Story | Miku cheering (meruko-san) | the award covers |
 | `story-notes` | Story, bottom | Cinnamoroll flying with airplanes (biskyfresh) | "Explore the vault" |
-| `research-abstract` | Research | **empty: Miku holding a clipboard, pointing down** | the abstract |
 | `writing-latest` | Writing | Miku waving "Hi!" (tina_muchimu) | the latest essay |
 | `writing-notes` | Writing, bottom | Cinnamoroll saying "Hello" (nacchan) | "Explore the vault" |
 | `footer` | every page | Miku in a leek costume (lulalang) | "Back to top" |
 
-The tabs at the top carry small round crops of the same art (`images/mascots/tab-*.webp`). Clicking any mascot makes it hop and throw out notes and sparkles (Miku) or hearts and clouds (Cinnamoroll); that's in `site.js`.
-
-### Cloud edges
-
-Sections on the Story page alternate between the paper color and a soft blue band, and every section's top edge is a row of cloud puffs (so are the header's bottom edge and the footer). To make a section blue, add `band` to its class, e.g. `<section class="chapter band has-sky" …>`. Keep neighbouring sections different colors so the puffs show.
-
-### Clouds, stars and other decorations
-
-Each decorated section has a `<div class="sky">` holding small items like:
+To change one, save the picture as `images/mascots/<data-spot>.webp` (transparent background, about 480px) and point its `<img>` at it. A spot waiting for art can show a dashed "draw me" frame instead:
 
 ```html
-<i class="d d-cloud tint" style="--x:60%;--y:10%;--w:6rem"></i>
+<span class="mascot is-empty" data-character="miku" data-spot="story-chapters" aria-hidden="true"><span class="sketch"><b>Miku</b>pointing<em>draw me</em></span></span>
 ```
 
-- Kinds: `d-cloud` (add `tint` for a blue one), `d-spark` (add `blue`), `d-star`, `d-note`, `d-heart`, `d-ring`
-- `--x` / `--y`: where it sits in the section; `--w`: size; `--t`: animation offset (e.g. `-2s`) so neighbours don't move in sync; `--r`: tilt
-- Add `wide-only` to hide one on phones, where it might sit behind text
-
-Whenever you add someone else's art, add a row for it in `credits.html` (the comment there has the pattern) with the artist and a link to where you found it.
+The tabs at the top carry small round crops of the same art (`images/mascots/tab-*.webp`). Clicking any of the friends makes them hop and throw out notes and sparkles (Miku) or hearts (Cinnamoroll); that's in `site.js`.
 
 ## Previewing on this computer
 

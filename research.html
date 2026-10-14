@@ -3,37 +3,40 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<script>try{var t=localStorage.getItem("theme");if(t==="dark"||t==="light")document.documentElement.dataset.theme=t}catch(e){}</script>
 <title>Research · What Helping Means</title>
 <meta name="description" content="Whose Judgment Counts? A survey of 308 Vietnamese university students on mental illness stigma and where they would turn for help.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Literata:ital,opsz,wght@0,7..72,400..600;1,7..72,400..500&display=swap">
 <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="images/icon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="images/icon-512.png" sizes="512x512" type="image/png">
+<link rel="apple-touch-icon" href="images/icon-180.png">
 </head>
 <body>
 
+<div class="sheet" id="top">
+
+<span class="perch perch--top" data-character="cinnamoroll" aria-hidden="true"><img src="images/mascots/cinna-headphones.webp" alt="" width="520" height="357"></span>
+
 <header class="top">
+  <div class="band band--down" aria-hidden="true"></div>
   <div class="wrap top-in">
-    <a class="mark" href="index.html"><span class="mark-dot" aria-hidden="true"></span><span>What helping means</span></a>
-    <nav class="tabs" aria-label="Site">
-      <a class="tab" href="index.html"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-story.webp" alt=""></span>Story</a>
-      <a class="tab" href="research.html" aria-current="page"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-research.webp" alt=""></span>Research</a>
-      <a class="tab" href="writing.html"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-writing.webp" alt=""></span>Writing<span class="tab-src">Substack</span></a>
-      <a class="tab" href="notes/"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-notes.webp" alt=""></span>Notes<span class="tab-src">Vault</span></a>
-    </nav>
+    <a class="mark" href="index.html"><img src="images/icon-180.png" alt="" width="180" height="180"><span>What helping means</span></a>
+    <div class="nav">
+      <nav class="tabs" aria-label="Site">
+        <a class="tab" href="index.html"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-story.webp" alt=""></span>Story</a>
+        <a class="tab" href="research.html" aria-current="page"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-research.webp" alt=""></span>Research</a>
+        <a class="tab" href="writing.html"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-writing.webp" alt=""></span>Writing<span class="tab-src">Substack</span></a>
+        <a class="tab" href="notes/"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-notes.webp" alt=""></span>Notes<span class="tab-src">Vault</span></a>
+      </nav>
+      <button class="theme" type="button" aria-pressed="false" aria-label="Dark mode"><span class="theme-knob" aria-hidden="true"><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="#C7881A" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.3" fill="#FFF4BF"/><path d="M12 2.6v2.1M12 19.3v2.1M2.6 12h2.1M19.3 12h2.1M5.4 5.4l1.5 1.5M17.1 17.1l1.5 1.5M5.4 18.6l1.5-1.5M17.1 6.9l1.5-1.5"/></svg><svg class="moon" viewBox="0 0 24 24"><path d="M19.6 14.6A7.9 7.9 0 0 1 9.4 4.4a7.9 7.9 0 1 0 10.2 10.2z" fill="#D9D3FB" stroke="#5B55A8" stroke-width="1.6" stroke-linejoin="round"/></svg></span></button>
+    </div>
   </div>
 </header>
 
-<main class="wrap page has-sky" id="top">
-  <div class="sky sky--top" aria-hidden="true">
-    <i class="d d-cloud" style="--x:62%;--y:8%;--w:7rem"></i>
-    <i class="d d-cloud tint wide-only" style="--x:84%;--y:22%;--w:4.5rem;--t:-7s"></i>
-    <i class="d d-star" style="--x:77%;--y:4%;--w:1.6rem"></i>
-    <i class="d d-spark" style="--x:93%;--y:10%;--t:-1.4s"></i>
-    <i class="d d-spark blue wide-only" style="--x:58%;--y:36%;--w:1rem;--t:-2s"></i>
-    <i class="d d-spark blue wide-only" style="--x:70%;--y:32%;--w:1.2rem;--t:-.8s"></i>
-    <i class="d d-note wide-only" style="--x:90%;--y:40%;--w:1.2rem;--r:-6deg"></i>
-  </div>
+<main class="wrap page">
   <header class="page-head">
     <p class="eyebrow">Research · Survey study</p>
     <h1>Whose Judgment Counts?</h1>
@@ -46,15 +49,15 @@
       <a class="pill" href="#full-paper">Full paper <span aria-hidden="true">↓</span></a>
       <a class="pill" href="index.html#turn">How it started <span aria-hidden="true">→</span></a>
     </p>
-    <div class="pointer">
-      <span class="mascot is-empty" data-character="miku" data-spot="research-abstract" aria-hidden="true"><span class="sketch"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4.5-1 10-10a2.1 2.1 0 0 0-3-3l-10 10L4 20z"/><path d="M14 7l3 3"/></svg><b>Miku</b>holding a clipboard, pointing down<em>draw me</em></span></span>
+    <div class="pointer pointer--bare">
       <p class="bubble">Start with the abstract <span class="arrow" aria-hidden="true">↓</span> The limits section matters as much as the results.</p>
     </div>
   </header>
 
   <article class="paper" aria-labelledby="abstract-h">
 
-    <section class="abstract" id="abstract">
+    <section class="abstract has-lean" id="abstract">
+      <span class="perch perch--lean" data-character="miku" data-spot="research-abstract" aria-hidden="true"><img src="images/mascots/miku-lean.webp" alt="" width="520" height="550"></span>
       <h2 id="abstract-h">Abstract</h2>
       <!-- research:abstract -->
       <p>Most measures of mental illness stigma ask what a person believes, or what they think most people believe. In Vietnam, where a diagnosis is often felt to reflect on the whole family, the expected cost to one’s family may also shape whether someone seeks help. An anonymous survey was given to students at four universities in northern Vietnam. After reading a vignette about someone with depression, students rated how likely they would be to seek help from family, friends, professionals, or no one. Of 582 responses, 308 passed quality checks. Perceived public stigma, anticipated cost to family, and anticipated rejection by friends were each associated with lower intentions to turn to family. The anticipated cost to family and rejection by friends were also associated with higher intentions to turn to no one. Personal stigma showed almost no association with either. All associations were small (|ρ| ≤ .24), and family-directed and friend-directed items did not separate empirically.</p>
@@ -141,20 +144,19 @@
 </main>
 
 <footer class="foot-band">
-  <div class="wrap foot has-sky">
-    <div class="sky" aria-hidden="true">
-      <i class="d d-cloud" style="--x:36%;--y:18%;--w:3.6rem"></i>
-      <i class="d d-spark" style="--x:47%;--y:46%;--w:.9rem;--t:-1s"></i>
-      <i class="d d-cloud wide-only" style="--x:55%;--y:28%;--w:2.8rem;--t:-5s"></i>
-      <i class="d d-heart wide-only" style="--x:63%;--y:40%;--w:.8rem;--r:10deg"></i>
-    </div>
-    <span>What helping means</span>
+  <div class="band band--up" aria-hidden="true"></div>
+  <span class="perch perch--ledge" data-character="miku" aria-hidden="true"><img class="back" src="images/mascots/miku-ledge.webp" alt="" width="520" height="536" loading="lazy"><img class="front" src="images/mascots/miku-ledge.webp" alt="" width="520" height="536" loading="lazy"></span>
+  <span class="perch perch--cheer" data-character="cinnamoroll" aria-hidden="true"><img src="images/mascots/cinna-surprised.webp" alt="" width="520" height="366" loading="lazy"></span>
+  <div class="wrap foot">
+    <span class="foot-name">What helping means</span>
     <nav aria-label="Footer">
       <a href="credits.html">Credits</a>
       <a class="to-top" href="#top"><span class="mascot" data-character="miku" data-spot="footer" aria-hidden="true"><img src="images/mascots/footer.webp" alt="" loading="lazy"></span>Back to top</a>
     </nav>
   </div>
 </footer>
+
+</div>
 
 <script src="site.js" defer></script>
 </body>

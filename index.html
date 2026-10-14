@@ -3,62 +3,42 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<script>try{var t=localStorage.getItem("theme");if(t==="dark"||t==="light")document.documentElement.dataset.theme=t}catch(e){}</script>
 <title>What Helping Means</title>
 <meta name="description" content="Workshops, a study on stigma, afternoons with children with cerebral palsy, piano, and the awards and service that came with them.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Literata:ital,opsz,wght@0,7..72,400..600;1,7..72,400..500&display=swap">
 <link rel="stylesheet" href="styles.css">
+<link rel="icon" href="images/icon-32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="images/icon-512.png" sizes="512x512" type="image/png">
+<link rel="apple-touch-icon" href="images/icon-180.png">
 </head>
 <body>
 
-<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
-  <symbol id="octave" viewBox="0 0 140 90">
-    <g style="fill:var(--key-light);stroke:var(--key-edge);stroke-width:1">
-      <rect x=".5" y=".5" width="19" height="89" rx="1.5"/>
-      <rect x="20.5" y=".5" width="19" height="89" rx="1.5"/>
-      <rect x="40.5" y=".5" width="19" height="89" rx="1.5"/>
-      <rect x="60.5" y=".5" width="19" height="89" rx="1.5"/>
-      <rect x="80.5" y=".5" width="19" height="89" rx="1.5"/>
-      <rect x="100.5" y=".5" width="19" height="89" rx="1.5"/>
-      <rect x="120.5" y=".5" width="19" height="89" rx="1.5"/>
-    </g>
-    <g style="fill:var(--key-dark)">
-      <rect x="14" y="0" width="12" height="55" rx="1.5"/>
-      <rect x="34" y="0" width="12" height="55" rx="1.5"/>
-      <rect x="74" y="0" width="12" height="55" rx="1.5"/>
-      <rect x="94" y="0" width="12" height="55" rx="1.5"/>
-      <rect x="114" y="0" width="12" height="55" rx="1.5"/>
-    </g>
-  </symbol>
-</svg>
+<div class="sheet" id="top">
+
+<span class="perch perch--top" data-character="cinnamoroll" aria-hidden="true"><img src="images/mascots/cinna-headphones.webp" alt="" width="520" height="357"></span>
 
 <header class="top">
+  <div class="band band--down" aria-hidden="true"></div>
   <div class="wrap top-in">
-    <a class="mark" href="#top"><span class="mark-dot" aria-hidden="true"></span><span>What helping means</span></a>
-    <nav class="tabs" aria-label="Site">
-      <a class="tab" href="index.html" aria-current="page"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-story.webp" alt=""></span>Story</a>
-      <a class="tab" href="research.html"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-research.webp" alt=""></span>Research</a>
-      <a class="tab" href="writing.html"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-writing.webp" alt=""></span>Writing<span class="tab-src">Substack</span></a>
-      <a class="tab" href="notes/"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-notes.webp" alt=""></span>Notes<span class="tab-src">Vault</span></a>
-    </nav>
+    <a class="mark" href="#top"><img src="images/icon-180.png" alt="" width="180" height="180"><span>What helping means</span></a>
+    <div class="nav">
+      <nav class="tabs" aria-label="Site">
+        <a class="tab" href="index.html" aria-current="page"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-story.webp" alt=""></span>Story</a>
+        <a class="tab" href="research.html"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-research.webp" alt=""></span>Research</a>
+        <a class="tab" href="writing.html"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-writing.webp" alt=""></span>Writing<span class="tab-src">Substack</span></a>
+        <a class="tab" href="notes/"><span class="tab-pet" aria-hidden="true"><img src="images/mascots/tab-notes.webp" alt=""></span>Notes<span class="tab-src">Vault</span></a>
+      </nav>
+      <button class="theme" type="button" aria-pressed="false" aria-label="Dark mode"><span class="theme-knob" aria-hidden="true"><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="#C7881A" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.3" fill="#FFF4BF"/><path d="M12 2.6v2.1M12 19.3v2.1M2.6 12h2.1M19.3 12h2.1M5.4 5.4l1.5 1.5M17.1 17.1l1.5 1.5M5.4 18.6l1.5-1.5M17.1 6.9l1.5-1.5"/></svg><svg class="moon" viewBox="0 0 24 24"><path d="M19.6 14.6A7.9 7.9 0 0 1 9.4 4.4a7.9 7.9 0 1 0 10.2 10.2z" fill="#D9D3FB" stroke="#5B55A8" stroke-width="1.6" stroke-linejoin="round"/></svg></span></button>
+    </div>
   </div>
 </header>
 
 <main>
 
-  <section class="wrap hero has-sky" id="top" aria-labelledby="h-open">
-    <div class="sky" aria-hidden="true">
-      <i class="d d-cloud" style="--x:60%;--y:10%;--w:7.5rem"></i>
-      <i class="d d-cloud tint" style="--x:84%;--y:3%;--w:5.5rem;--t:-6s"></i>
-      <i class="d d-cloud wide-only" style="--x:73%;--y:36%;--w:4rem;--t:-11s"></i>
-      <i class="d d-spark" style="--x:57%;--y:30%;--w:1.4rem"></i>
-      <i class="d d-spark blue" style="--x:94%;--y:24%;--w:1.1rem;--t:-1.2s"></i>
-      <i class="d d-star" style="--x:72%;--y:4%;--w:1.6rem;--t:-2s"></i>
-      <i class="d d-note wide-only" style="--x:89%;--y:44%;--w:1.5rem;--r:-10deg"></i>
-      <i class="d d-heart wide-only" style="--x:52%;--y:7%;--w:1.1rem;--t:-2.5s;--r:12deg"></i>
-      <i class="d d-ring wide-only" style="--x:65%;--y:50%;--w:.8rem"></i>
-    </div>
+  <section class="wrap hero" aria-labelledby="h-open">
     <div class="hero-title">
       <p class="eyebrow">Opening</p>
       <h1 id="h-open">I started out wanting to help people.</h1>
@@ -75,19 +55,13 @@
       <li><a href="#workshops"><span class="frame"><img src="images/workshop-1-800.jpg" alt="" width="800" height="600" style="object-position:70% 50%"></span><span class="label"><span class="num">01</span>Workshops</span></a></li>
       <li><a href="#turn"><span class="frame"><img src="images/workshop-paintings-800.jpg" alt="" width="495" height="660"></span><span class="label"><span class="num">02</span>The turn</span></a></li>
       <li><a href="#cp"><span class="frame"><img src="images/cp-3-800.jpg" alt="" width="600" height="800"></span><span class="label"><span class="num">03</span>Cerebral palsy</span></a></li>
-      <li><a href="#piano"><span class="frame"><svg viewBox="52 0 67.5 90" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#octave" width="140" height="90"/></svg></span><span class="label"><span class="num">04</span>Piano</span></a></li>
+      <li><a href="#piano"><span class="frame"><img src="images/piano-800.webp" alt="" width="762" height="597" style="object-position:16% 50%"></span><span class="label"><span class="num">04</span>Piano</span></a></li>
       <li><a href="#awards"><span class="frame"><img src="images/mountain-games-2-800.jpg" alt="" width="800" height="600" style="object-position:58% 50%"></span><span class="label"><span class="num">05</span>Awards</span></a></li>
     </ul>
   </div>
 
   <!-- Workshops -->
-  <section class="chapter band has-sky" id="workshops" aria-labelledby="h-workshops">
-    <div class="sky" aria-hidden="true">
-      <i class="d d-cloud tint" style="--x:30%;--y:4.5rem;--w:5rem"></i>
-      <i class="d d-spark" style="--x:40%;--y:3.2rem;--t:-.6s"></i>
-      <i class="d d-heart wide-only" style="--x:26%;--y:9rem;--w:.9rem;--r:-10deg;--t:-1.5s"></i>
-      <i class="d d-spark blue wide-only" style="--x:44%;--y:8rem;--w:.9rem;--t:-2s"></i>
-    </div>
+  <section class="chapter" id="workshops" aria-labelledby="h-workshops">
     <div class="wrap chapter-grid">
       <header class="chapter-head">
         <p class="eyebrow">sTARO</p>
@@ -113,20 +87,8 @@
   </section>
 
   <!-- The turn -->
-  <section class="chapter has-sky" id="turn" aria-labelledby="h-turn">
-    <div class="sky" aria-hidden="true">
-      <i class="d d-cloud wide-only" style="--x:6%;--y:9%;--w:6rem"></i>
-      <i class="d d-star wide-only" style="--x:16%;--y:5%;--w:1.4rem;--t:-1s"></i>
-      <i class="d d-cloud tint wide-only" style="--x:82%;--y:16%;--w:5.5rem;--t:-5s"></i>
-      <i class="d d-spark wide-only" style="--x:90%;--y:10%;--t:-.4s"></i>
-      <i class="d d-heart wide-only" style="--x:10%;--y:34%;--w:1.1rem;--r:-12deg"></i>
-      <i class="d d-spark blue wide-only" style="--x:88%;--y:42%;--w:1.1rem;--t:-1.8s"></i>
-      <i class="d d-cloud wide-only" style="--x:80%;--y:62%;--w:4.5rem;--t:-9s"></i>
-      <i class="d d-ring wide-only" style="--x:14%;--y:58%"></i>
-      <i class="d d-star wide-only" style="--x:8%;--y:80%;--w:1.2rem;--t:-3s"></i>
-      <i class="d d-cloud tint wide-only" style="--x:4%;--y:88%;--w:4rem;--t:-12s"></i>
-      <i class="d d-note wide-only" style="--x:90%;--y:84%;--w:1.2rem;--r:8deg"></i>
-    </div>
+  <section class="chapter" id="turn" aria-labelledby="h-turn">
+    <div class="peek" aria-hidden="true"><span class="perch" data-character="miku"><img src="images/mascots/miku-peek.webp" alt="" width="409" height="929" loading="lazy"></span></div>
     <div class="wrap chapter-grid chapter-grid--solo">
       <header class="chapter-head">
         <p class="eyebrow">Research</p>
@@ -159,13 +121,7 @@
   </section>
 
   <!-- Cerebral palsy -->
-  <section class="chapter chapter--flip band has-sky" id="cp" aria-labelledby="h-cp">
-    <div class="sky" aria-hidden="true">
-      <i class="d d-cloud tint" style="--x:84%;--y:3rem;--w:4.5rem"></i>
-      <i class="d d-spark" style="--x:80%;--y:7.5rem;--t:-1s"></i>
-      <i class="d d-heart wide-only" style="--x:94%;--y:8rem;--w:1rem;--r:14deg"></i>
-      <i class="d d-star wide-only" style="--x:76%;--y:3rem;--w:1.2rem;--t:-2s"></i>
-    </div>
+  <section class="chapter chapter--flip" id="cp" aria-labelledby="h-cp">
     <div class="wrap chapter-grid">
       <header class="chapter-head">
         <p class="eyebrow">10th and 11th grade</p>
@@ -188,14 +144,7 @@
   </section>
 
   <!-- Piano -->
-  <section class="chapter has-sky" id="piano" aria-labelledby="h-piano">
-    <div class="sky" aria-hidden="true">
-      <i class="d d-note" style="--x:44%;--y:4rem;--w:1.6rem;--r:-10deg"></i>
-      <i class="d d-note wide-only" style="--x:52%;--y:7.5rem;--w:1.2rem;--r:12deg;--t:-1.6s"></i>
-      <i class="d d-note" style="--x:36%;--y:9rem;--w:1.1rem;--r:4deg;--t:-3s"></i>
-      <i class="d d-spark" style="--x:58%;--y:3.5rem;--t:-.8s"></i>
-      <i class="d d-star wide-only" style="--x:30%;--y:3rem;--w:1.2rem;--t:-2.4s"></i>
-    </div>
+  <section class="chapter" id="piano" aria-labelledby="h-piano">
     <div class="wrap chapter-grid chapter-grid--pairs">
       <header class="chapter-head">
         <p class="eyebrow">About twelve years</p>
@@ -205,15 +154,9 @@
         <p>I studied piano for about twelve years, starting at three, and didn’t like it for most of them. The practice was rigorous and meticulous, and it started long before I had any say in it. I think my dad loved classical pianists and wanted me to be like them—thirty-some pieces, all Classical and Romantic. The lessons wound down when I started high school, and the last piece was Liszt’s <i>Liebestraum</i> No. 3.</p>
         <p>What changed it was hip-hop and rock. I’d play the same album dozens of times, trying to work out everything happening in it. And the practice I’d hated turned out to be what let me hear it: the layers, and all the small things going on inside them. That made me love music, and want to play it and understand it for myself. I built my own taste, checked my own technique, and practiced more than I ever had when I was made to. Starting on spring break in 11th grade, I played for a month straight. Nobody made me.</p>
       </div>
-      <figure class="keys-card side-a">
-        <svg class="keys" viewBox="0 0 280 90" role="img" aria-label="Two octaves of a piano keyboard"><use href="#octave" x="0" width="140" height="90"/><use href="#octave" x="140" width="140" height="90"/></svg>
-        <dl class="facts">
-          <dt>Started</dt><dd>Age three</dd>
-          <dt>Studied</dt><dd>About twelve years</dd>
-          <dt>Repertoire</dt><dd>Thirty-some pieces, Classical and Romantic</dd>
-          <dt>Last piece</dt><dd>Liszt, <i>Liebestraum</i> No. 3</dd>
-          <dt>By choice</dt><dd>A month straight, spring break of 11th grade</dd>
-        </dl>
+      <figure class="plate snap side-a">
+        <a class="ph" href="images/piano-800.webp" data-group="piano"><img src="images/piano-800.webp" width="762" height="597" loading="lazy" alt="Playing a grand piano on a stage"></a>
+        <figcaption class="cap">At the piano.</figcaption>
       </figure>
       <div class="prose prose-b">
         <p>Around the same time, I got into basketball. I followed the Lakers and kept up with everything, through seasons where we didn’t win much or get far in the playoffs, and it made me want to play. A couple of months in, I was in a 3x3 tournament. The team never really worked together, and I got tripped in the first game and rolled my ankle. I played through it, badly, but I was still the one calling plays, helping on defense, and hustling. In the final, we were getting cooked by their best player, so I got subbed in to guard him. I couldn’t do much on offense. I locked him up anyway.</p>
@@ -228,89 +171,76 @@
   </section>
 
   <!-- Awards and service -->
-  <section class="awards band has-sky" id="awards" aria-labelledby="h-awards">
-    <div class="sky" aria-hidden="true">
-      <i class="d d-cloud" style="--x:38%;--y:5%;--w:5rem"></i>
-      <i class="d d-spark" style="--x:33%;--y:16%"></i>
-      <i class="d d-star wide-only" style="--x:55%;--y:4%;--w:1.3rem;--t:-3s"></i>
-      <i class="d d-heart" style="--x:2%;--y:5%;--w:1rem;--r:-12deg"></i>
-      <i class="d d-note wide-only" style="--x:60%;--y:15%;--w:1.2rem;--t:-1.5s;--r:8deg"></i>
-      <i class="d d-cloud wide-only" style="--x:86%;--y:86%;--w:4rem;--t:-7s"></i>
-    </div>
-    <div class="wrap awards-in">
-      <div class="awards-head">
-        <h2 id="h-awards">Awards and service</h2>
-        <div class="pointer pointer--flip">
-          <span class="mascot" data-character="miku" data-spot="story-awards" aria-hidden="true"><img src="images/mascots/story-awards.webp" alt="" loading="lazy"></span>
-          <p class="bubble">Tap any cover to see its photos <span class="arrow" aria-hidden="true">↙</span></p>
+  <section class="awards" id="awards" aria-labelledby="h-awards">
+    <div class="wrap">
+      <div class="awards-board">
+        <span class="perch perch--leek" data-character="miku" aria-hidden="true"><img src="images/mascots/miku-leek.webp" alt="" width="318" height="688" loading="lazy"></span>
+        <div class="awards-head">
+          <h2 id="h-awards">Awards and service</h2>
+          <div class="pointer pointer--flip">
+            <span class="mascot" data-character="miku" data-spot="story-awards" aria-hidden="true"><img src="images/mascots/story-awards.webp" alt="" loading="lazy"></span>
+            <p class="bubble">Tap any cover to see its photos <span class="arrow" aria-hidden="true">↙</span></p>
+          </div>
         </div>
+        <ul class="cards">
+          <li class="card">
+            <a class="cover ph" href="images/piano-800.webp" data-group="piano-award" aria-label="Asia-Pacific Arts Festival: 1 photo"><img src="images/piano-800.webp" width="762" height="597" loading="lazy" alt="Playing a grand piano on a stage" style="object-position:16% 50%"></a>
+            <div class="card-text">
+              <span class="tier tier--silver">Silver</span>
+              <h3>Asia-Pacific Arts Festival</h3>
+              <p class="card-sub">Piano</p>
+            </div>
+          </li>
+  
+          <li class="card">
+            <a class="cover ph" href="images/english-1-1600.jpg" data-group="english" aria-label="City-level English competition: 2 photos"><img src="images/english-1-800.jpg" srcset="images/english-1-800.jpg 800w, images/english-1-1600.jpg 1600w" sizes="(max-width: 820px) 152px, 15rem" width="800" height="607" loading="lazy" alt="The English team in matching red hoodies on the steps of a large building" style="object-position:45% 50%"><span class="badge"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3.5" width="7.5" height="7.5" rx="1"/><path d="M3.5 1.5H9.5A1 1 0 0 1 10.5 2.5V8.5"/></svg>2</span></a>
+            <a class="ph" href="images/english-2-1600.jpg" data-group="english" data-alt="The English team in red hoodies lined up in front of a traditional tiled-roof hall" hidden></a>
+            <div class="card-text">
+              <span class="tier tier--bronze">Bronze</span>
+              <h3>City-level English competition</h3>
+              <p class="card-sub">With the city English team</p>
+            </div>
+          </li>
+  
+          <li class="card">
+            <a class="cover ph" href="images/basketball-podium-1600.jpg" data-group="kao" aria-label="KAO Sports 3x3 Winter Cup: 1 photo"><img src="images/basketball-podium-800.jpg" srcset="images/basketball-podium-800.jpg 800w, images/basketball-podium-1600.jpg 1600w" sizes="(max-width: 820px) 152px, 15rem" width="800" height="600" loading="lazy" alt="Players holding certificates and medals in front of the KAO Sports 3x3 Winter Cup banner" style="object-position:44% 50%"></a>
+            <div class="card-text">
+              <span class="tier tier--silver">Silver</span>
+              <h3>KAO Sports 3x3 Winter Cup</h3>
+              <p class="card-sub">Basketball, played on a rolled ankle</p>
+            </div>
+          </li>
+  
+          <li class="card">
+            <a class="cover ph" href="images/mountain-games-2-1600.jpg" data-group="mountains" aria-label="Two-day donation trip: 7 photos"><img src="images/mountain-games-2-800.jpg" srcset="images/mountain-games-2-800.jpg 800w, images/mountain-games-2-1600.jpg 1600w" sizes="(max-width: 820px) 152px, 15rem" width="800" height="600" loading="lazy" alt="Children and volunteers in a circle game, with hills behind them" style="object-position:58% 50%"><span class="badge"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3.5" width="7.5" height="7.5" rx="1"/><path d="M3.5 1.5H9.5A1 1 0 0 1 10.5 2.5V8.5"/></svg>7</span></a>
+            <a class="ph" href="images/mountain-group-1600.jpg" data-group="mountains" data-alt="Volunteers and local women in traditional dress in front of a thatched-roof house" hidden></a>
+            <a class="ph" href="images/mountain-pack-1-1600.jpg" data-group="mountains" data-alt="Volunteers sorting rows of red gift bags along the wall of a hall" hidden></a>
+            <a class="ph" href="images/mountain-pack-2-1600.jpg" data-group="mountains" data-alt="Volunteers checking boxes of donated supplies" hidden></a>
+            <a class="ph" href="images/mountain-games-1-1600.jpg" data-group="mountains" data-alt="Children playing ribbon games in the yard outside a yellow building" hidden></a>
+            <a class="ph" href="images/mountain-games-3-1600.jpg" data-group="mountains" data-alt="A long ribbon game stretched across the yard" hidden></a>
+            <a class="ph" href="images/mountain-games-4-1600.jpg" data-group="mountains" data-alt="Children and volunteers playing with ribbons in front of a yellow building" hidden></a>
+            <div class="card-text">
+              <span class="tier tier--service">Service</span>
+              <h3>Two-day donation trip</h3>
+              <p class="card-sub">To an ethnic minority community in the mountains</p>
+            </div>
+          </li>
+  
+          <li class="card">
+            <a class="cover ph" href="images/coast-2-1600.jpg" data-group="coast" aria-label="Coastal cleanup: 2 photos"><img src="images/coast-2-800.jpg" srcset="images/coast-2-800.jpg 800w, images/coast-2-1600.jpg 1600w" sizes="(max-width: 820px) 152px, 15rem" width="600" height="800" loading="lazy" alt="Pulling an old piece of fabric out of the sand into a collection sack" style="object-position:50% 40%"><span class="badge"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3.5" width="7.5" height="7.5" rx="1"/><path d="M3.5 1.5H9.5A1 1 0 0 1 10.5 2.5V8.5"/></svg>2</span></a>
+            <a class="ph" href="images/coast-1-1600.jpg" data-group="coast" data-alt="Volunteers filling a large sack with trash on the beach" hidden></a>
+            <div class="card-text">
+              <span class="tier tier--service">Service</span>
+              <h3>Coastal cleanup</h3>
+            </div>
+          </li>
+        </ul>
       </div>
-      <ul class="cards">
-        <li class="card">
-          <a class="cover" href="#piano" aria-label="Asia-Pacific Arts Festival: read the piano chapter"><svg viewBox="52 0 67.5 90" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><use href="#octave" width="140" height="90"/></svg><span class="badge"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 10.5V1.5"/><path d="M2.5 5L6 1.5L9.5 5"/></svg>Chapter</span></a>
-          <div class="card-text">
-            <span class="tier tier--silver">Silver</span>
-            <h3>Asia-Pacific Arts Festival</h3>
-            <p class="card-sub">Piano</p>
-          </div>
-        </li>
-
-        <li class="card">
-          <a class="cover ph" href="images/english-1-1600.jpg" data-group="english" aria-label="City-level English competition: 2 photos"><img src="images/english-1-800.jpg" srcset="images/english-1-800.jpg 800w, images/english-1-1600.jpg 1600w" sizes="(max-width: 820px) 152px, 15rem" width="800" height="607" loading="lazy" alt="The English team in matching red hoodies on the steps of a large building" style="object-position:45% 50%"><span class="badge"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3.5" width="7.5" height="7.5" rx="1"/><path d="M3.5 1.5H9.5A1 1 0 0 1 10.5 2.5V8.5"/></svg>2</span></a>
-          <a class="ph" href="images/english-2-1600.jpg" data-group="english" data-alt="The English team in red hoodies lined up in front of a traditional tiled-roof hall" hidden></a>
-          <div class="card-text">
-            <span class="tier tier--bronze">Bronze</span>
-            <h3>City-level English competition</h3>
-            <p class="card-sub">With the city English team</p>
-          </div>
-        </li>
-
-        <li class="card">
-          <a class="cover ph" href="images/basketball-podium-1600.jpg" data-group="kao" aria-label="KAO Sports 3x3 Winter Cup: 1 photo"><img src="images/basketball-podium-800.jpg" srcset="images/basketball-podium-800.jpg 800w, images/basketball-podium-1600.jpg 1600w" sizes="(max-width: 820px) 152px, 15rem" width="800" height="600" loading="lazy" alt="Players holding certificates and medals in front of the KAO Sports 3x3 Winter Cup banner" style="object-position:44% 50%"></a>
-          <div class="card-text">
-            <span class="tier tier--silver">Silver</span>
-            <h3>KAO Sports 3x3 Winter Cup</h3>
-            <p class="card-sub">Basketball, played on a rolled ankle</p>
-          </div>
-        </li>
-
-        <li class="card">
-          <a class="cover ph" href="images/mountain-games-2-1600.jpg" data-group="mountains" aria-label="Two-day donation trip: 7 photos"><img src="images/mountain-games-2-800.jpg" srcset="images/mountain-games-2-800.jpg 800w, images/mountain-games-2-1600.jpg 1600w" sizes="(max-width: 820px) 152px, 15rem" width="800" height="600" loading="lazy" alt="Children and volunteers in a circle game, with hills behind them" style="object-position:58% 50%"><span class="badge"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3.5" width="7.5" height="7.5" rx="1"/><path d="M3.5 1.5H9.5A1 1 0 0 1 10.5 2.5V8.5"/></svg>7</span></a>
-          <a class="ph" href="images/mountain-group-1600.jpg" data-group="mountains" data-alt="Volunteers and local women in traditional dress in front of a thatched-roof house" hidden></a>
-          <a class="ph" href="images/mountain-pack-1-1600.jpg" data-group="mountains" data-alt="Volunteers sorting rows of red gift bags along the wall of a hall" hidden></a>
-          <a class="ph" href="images/mountain-pack-2-1600.jpg" data-group="mountains" data-alt="Volunteers checking boxes of donated supplies" hidden></a>
-          <a class="ph" href="images/mountain-games-1-1600.jpg" data-group="mountains" data-alt="Children playing ribbon games in the yard outside a yellow building" hidden></a>
-          <a class="ph" href="images/mountain-games-3-1600.jpg" data-group="mountains" data-alt="A long ribbon game stretched across the yard" hidden></a>
-          <a class="ph" href="images/mountain-games-4-1600.jpg" data-group="mountains" data-alt="Children and volunteers playing with ribbons in front of a yellow building" hidden></a>
-          <div class="card-text">
-            <span class="tier tier--service">Service</span>
-            <h3>Two-day donation trip</h3>
-            <p class="card-sub">To an ethnic minority community in the mountains</p>
-          </div>
-        </li>
-
-        <li class="card">
-          <a class="cover ph" href="images/coast-2-1600.jpg" data-group="coast" aria-label="Coastal cleanup: 2 photos"><img src="images/coast-2-800.jpg" srcset="images/coast-2-800.jpg 800w, images/coast-2-1600.jpg 1600w" sizes="(max-width: 820px) 152px, 15rem" width="600" height="800" loading="lazy" alt="Pulling an old piece of fabric out of the sand into a collection sack" style="object-position:50% 40%"><span class="badge"><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="3.5" width="7.5" height="7.5" rx="1"/><path d="M3.5 1.5H9.5A1 1 0 0 1 10.5 2.5V8.5"/></svg>2</span></a>
-          <a class="ph" href="images/coast-1-1600.jpg" data-group="coast" data-alt="Volunteers filling a large sack with trash on the beach" hidden></a>
-          <div class="card-text">
-            <span class="tier tier--service">Service</span>
-            <h3>Coastal cleanup</h3>
-          </div>
-        </li>
-      </ul>
     </div>
   </section>
 
   <!-- Onward: the zettelkasten -->
-  <section class="onward has-sky" aria-label="More">
-    <div class="sky" aria-hidden="true">
-      <i class="d d-cloud" style="--x:58%;--y:20%;--w:6rem"></i>
-      <i class="d d-cloud tint" style="--x:80%;--y:52%;--w:4.5rem;--t:-8s"></i>
-      <i class="d d-spark" style="--x:72%;--y:16%"></i>
-      <i class="d d-star" style="--x:92%;--y:18%;--w:1.4rem;--t:-1s"></i>
-      <i class="d d-heart" style="--x:66%;--y:66%;--w:1rem;--r:10deg;--t:-2s"></i>
-      <i class="d d-spark blue wide-only" style="--x:50%;--y:70%;--w:1rem;--t:-1.5s"></i>
-    </div>
+  <section class="onward" aria-label="More">
     <div class="wrap">
       <div class="pointer pointer--minor">
         <span class="mascot mascot--card" data-character="cinnamoroll" data-spot="story-notes" aria-hidden="true"><img src="images/mascots/story-notes.webp" alt="" loading="lazy"></span>
@@ -322,20 +252,19 @@
 </main>
 
 <footer class="foot-band">
-  <div class="wrap foot has-sky">
-    <div class="sky" aria-hidden="true">
-      <i class="d d-cloud" style="--x:36%;--y:18%;--w:3.6rem"></i>
-      <i class="d d-spark" style="--x:47%;--y:46%;--w:.9rem;--t:-1s"></i>
-      <i class="d d-cloud wide-only" style="--x:55%;--y:28%;--w:2.8rem;--t:-5s"></i>
-      <i class="d d-heart wide-only" style="--x:63%;--y:40%;--w:.8rem;--r:10deg"></i>
-    </div>
-    <span>What helping means</span>
+  <div class="band band--up" aria-hidden="true"></div>
+  <span class="perch perch--ledge" data-character="miku" aria-hidden="true"><img class="back" src="images/mascots/miku-ledge.webp" alt="" width="520" height="536" loading="lazy"><img class="front" src="images/mascots/miku-ledge.webp" alt="" width="520" height="536" loading="lazy"></span>
+  <span class="perch perch--cheer" data-character="cinnamoroll" aria-hidden="true"><img src="images/mascots/cinna-surprised.webp" alt="" width="520" height="366" loading="lazy"></span>
+  <div class="wrap foot">
+    <span class="foot-name">What helping means</span>
     <nav aria-label="Footer">
       <a href="credits.html">Credits</a>
       <a class="to-top" href="#top"><span class="mascot" data-character="miku" data-spot="footer" aria-hidden="true"><img src="images/mascots/footer.webp" alt="" loading="lazy"></span>Back to top</a>
     </nav>
   </div>
 </footer>
+
+</div>
 
 <dialog id="lightbox" aria-label="Photo viewer">
   <div class="lb">
