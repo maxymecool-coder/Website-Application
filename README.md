@@ -35,28 +35,28 @@ Each section of `research.html` sits between markers like `<!-- research:abstrac
 
 ## Mascots (Miku and Cinnamoroll)
 
-Every spot starts as a dashed "draw me" frame:
+Seven spots use fan art (artists listed on `credits.html`). An empty spot shows a dashed "draw me" frame:
 
 ```html
 <span class="mascot is-empty" data-character="miku" data-spot="story-chapters" aria-hidden="true">…</span>
 ```
 
-To fill one, save the picture as `images/mascots/<data-spot>.png` (transparent background, about 500px tall), then replace the whole `<span>…</span>` with:
+To fill one, save the picture as `images/mascots/<data-spot>.webp` (or `.png`; transparent background, about 480px), then replace the whole `<span>…</span>` with:
 
 ```html
-<span class="mascot" data-character="miku" data-spot="story-chapters" aria-hidden="true"><img src="images/mascots/story-chapters.png" alt=""></span>
+<span class="mascot" data-character="miku" data-spot="story-chapters" aria-hidden="true"><img src="images/mascots/story-chapters.webp" alt=""></span>
 ```
 
-| `data-spot` | Page | Character and pose | Points at |
+| `data-spot` | Page | Now | Points at |
 |---|---|---|---|
-| `story-chapters` | Story | Miku, pointing down | the chapter row |
-| `story-research` | Story, end of "The turn" | Cinnamoroll, peeking, pointing left | the link to Research |
-| `story-awards` | Story | Cinnamoroll, cheering, pointing down-left | the award covers |
-| `story-notes` | Story, bottom | Cinnamoroll, floating, pointing right | "Explore the vault" |
-| `research-abstract` | Research | Miku, holding a clipboard, pointing down | the abstract |
-| `writing-latest` | Writing | Miku, waving, pointing down | the latest essay |
-| `writing-notes` | Writing, bottom | Cinnamoroll, floating, pointing right | "Explore the vault" |
-| `footer` | every page | Miku, small round face | "Back to top" |
+| `story-chapters` | Story | Miku on a robot vacuum, pointing (nukotun) | the chapter row |
+| `story-research` | Story, end of "The turn" | Miku peeking out of a mug (tina_muchimu) | the link to Research |
+| `story-awards` | Story | Miku cheering (meruko-san) | the award covers |
+| `story-notes` | Story, bottom | Cinnamoroll flying with airplanes (biskyfresh) | "Explore the vault" |
+| `research-abstract` | Research | **empty: Miku holding a clipboard, pointing down** | the abstract |
+| `writing-latest` | Writing | Miku waving "Hi!" (tina_muchimu) | the latest essay |
+| `writing-notes` | Writing, bottom | Cinnamoroll saying "Hello" (nacchan) | "Explore the vault" |
+| `footer` | every page | Miku in a leek costume (lulalang) | "Back to top" |
 
 Whenever you add someone else's art, add a row for it in `credits.html` (the comment there has the pattern) with the artist and a link to where you found it.
 
