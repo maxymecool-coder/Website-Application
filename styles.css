@@ -768,6 +768,20 @@ body::after { background-image: radial-gradient(120% 80% at 50% 0%, rgba(10, 12,
 .abstract h2 { font-size: .8rem; letter-spacing: .12em; text-transform: uppercase; color: var(--teal); }
 .keywords { font-size: .88rem; color: var(--muted); }
 .keywords b { font-family: var(--font-display); font-weight: 650; }
+.paper-meta a { color: var(--accent); text-underline-offset: .2em; }
+.paper-meta a:hover { color: var(--ink); }
+.cite {
+  padding: .9rem 1.1rem;
+  border-left: 3px solid var(--sky-deep);
+  border-radius: 0 var(--r) var(--r) 0;
+  background: var(--paper-hi);
+  font-size: .92rem;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+.cite b { display: block; margin-bottom: .2rem; font-family: var(--font-display); font-size: .72rem; font-weight: 650; letter-spacing: .1em; text-transform: uppercase; color: var(--teal); }
+.cite a, .cite-license a { color: var(--accent); text-underline-offset: .2em; }
+.cite-license { font-size: .85rem; color: var(--muted); }
 .paper-sec { display: flex; flex-direction: column; gap: 1em; }
 .paper-sec > h2 { counter-increment: sec; font-size: var(--fs-h3); display: flex; align-items: baseline; gap: .6rem; }
 .paper-sec > h2::before { content: counter(sec) "."; color: var(--teal); font-variant-numeric: tabular-nums; }
