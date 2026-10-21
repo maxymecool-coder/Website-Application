@@ -31,7 +31,7 @@ GitHub Pages republishes within a minute or two.
 
 ## Editing the Research page
 
-Each section of `research.html` sits between markers like `<!-- research:abstract -->` and `<!-- /research:abstract -->`. Paste your edited text between them. The full paper is the PsyArXiv preprint; when there's a new version or a journal version, change its link under "Full paper" and in the "Read the preprint" pill at the top of the page.
+Each section of `research.html` sits between markers like `<!-- research:abstract -->` and `<!-- /research:abstract -->`. Paste your edited text between them. The full paper is the Zenodo preprint (DOI 10.5281/zenodo.23534176); the abstract on the page is its abstract word for word. When there's a new version or a journal version, change the DOI in the status line, the "Read the paper" pill, the "Full paper" section and the "Cite as" line.
 
 ## The look
 
